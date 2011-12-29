@@ -1,0 +1,16 @@
+#The bot will attempt to retrieve & write tweet according to the following cron-compatible schedule
+#The placeholder tweets every five seconds. This is useful for testing but too much for production.
+CronString: "*/5 * * * * *"
+
+#Whatever text this url provides will be echoed in the tweet (except "error")
+#The optional key is POSTed to the url as "key"
+TweetProviderAddress: http://mysite.com/api/tweetbothook
+TweetProviderKey: MY_SECRET_POST_KEY
+
+#These are the OAuth credentials for Twitter
+#You must create a Twitter app and then generate access tokens (some overhead involved)
+OAuthConsumerKey: AAAAAAAAAAAAAAAAAAAAA
+OAuthConsumerSecret: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+OAuthAccessToken: CCCCCCCCC-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+OAuthAccessTokenSecret: DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+ 
