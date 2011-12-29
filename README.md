@@ -1,7 +1,7 @@
 Java Twitterbot
 ====================
 
-A cron-like Twitterbot with a web interface for monitoring. Built using a Java webapp archetype (http://github.com/smanek/java-webapp-archetype).
+A cron-like Twitterbot with a web interface for monitoring. Built using a java-webapp-archetype (http://github.com/smanek/java-webapp-archetype).
 
 This bot runs as a webservice. At the times specified in the cron string, it queries a URL for text and then tweets that text. 
 
