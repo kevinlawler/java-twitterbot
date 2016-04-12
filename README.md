@@ -1,3 +1,5 @@
+(Warning: Twitter has since abandoned the authentication method this app uses. At a minimum that part would need to be replaced.)
+
 Java Twitterbot
 ====================
 
